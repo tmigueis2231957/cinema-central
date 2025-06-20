@@ -11,7 +11,7 @@ public class JanelaFilmes extends JFrame {
     private JTable tableFilmes;
     private JButton btnAdicionar;
     private DefaultTableModel modeloTabela;
-    private GestorCinema gestor = GestorCinema.getInstance();
+    private GestorCinema gestor = GestorCinema.instance;
 
     public JanelaFilmes() {
         setContentPane(panelFilmes);

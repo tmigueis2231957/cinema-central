@@ -12,7 +12,7 @@ public class GestorCinema {
     private LinkedList<Filme> filmes;
     private LinkedList<Sessao> sessoes;
 
-    private GestorCinema() {
+    GestorCinema() {
         filmes = new LinkedList<>();
         sessoes = new LinkedList<>();
         seedApp();
