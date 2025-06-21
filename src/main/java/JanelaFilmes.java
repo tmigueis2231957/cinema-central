@@ -8,6 +8,7 @@ import java.awt.event.ActionEvent;
 
 public class JanelaFilmes extends JFrame {
     private JPanel panelFilmes;
+    private JButton TESTEButton;
     private JTable tableFilmes;
     private JButton btnAdicionar;
     private DefaultTableModel modeloTabela;
